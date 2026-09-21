@@ -1,0 +1,48 @@
+body{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #dee9ff, #98cbe2);
+}
+
+.divPai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 70%;
+    border-radius: 10%;
+    border-color: #004262;
+    border-style: double;
+}
+
+button {
+    height: 60px;
+    width: 70px;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(62, 111, 139);
+    color: aliceblue;
+    border-radius: 50%;
+}
+
+h1 {
+    color: rgb(49, 11, 11);
+    background-color: white;
+    transition-property: opacity;
+    transition-duration: 500ms;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: darkblue;
+    transition-property: opacity;
+    transition-duration: 500ms;
+}
+
+.fade {
+    opacity: 0;
+}
